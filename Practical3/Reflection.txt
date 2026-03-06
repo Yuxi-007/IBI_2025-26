@@ -1,0 +1,7 @@
+This practical helped me understand how GitHub works.
+
+Cloning the repository and committing changes went well.
+
+The most challenging part was understanding how to push changes.
+
+Now I understand the basic workflow of Git.
