@@ -11,9 +11,10 @@ growth_rate = 0.4
 total = 91
 day = 1
 print("Day:", day)
+print("infected:",a)
 while a <= total:
     a=a+a*growth_rate
     day=day+1
     print("Day:", day)
-    print("new infected:",a)
+    print("infected:",a)
 print("All students infected after", day, "days.")
