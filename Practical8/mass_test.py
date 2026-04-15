@@ -30,7 +30,7 @@ def mass_test (sequence):
         else:
             total_mass +=amino_acid_masses[amino]
     return total_mass
-
+#An test
 protein_sequence = "ACDE"
 try:
     mass = mass_test(protein_sequence)
