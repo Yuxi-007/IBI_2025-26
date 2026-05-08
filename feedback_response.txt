@@ -1,0 +1,11 @@
+I responded to the formative feedback by editing the scripts heart_rate.py and creatine_clearance.py.
+
+In creatine_clearance.py, the feedback said that my code checked for errors but still printed the result even if the inputs did not meet the conditions. No points were deducted, but I still made a change in response to the feedback.
+I added a variable called valid. The program now sets valid to False if age, weight, creatine concentration, or gender is outside the allowed range. The creatine clearance rate is now only calculated and printed if valid is still True, meaning all inputs meet the required conditions.
+
+In heart_rate.py, the feedback said that the Normal category should contain 7 values, not 6, because 60 bpm should be included in the Normal category. In my original code, the condition for the Normal category was 60 < hr < 120, which excluded 60 bpm. I changed this condition to 60 <= hr < 120 so that 60 bpm is included in the Normal category.
+After this change, the categories are:
+Low: 1
+Normal: 7
+High: 3
+

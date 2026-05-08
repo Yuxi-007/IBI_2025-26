@@ -112,3 +112,4 @@ plt.xticks(china_uk["Year"], rotation=90)
 plt.tight_layout()
 plt.savefig("china_uk_dalys_difference.png", dpi=300)
 plt.show()
+# The differences become smaller

@@ -14,7 +14,7 @@ high=0
 for hr in heart_rate:
     if hr<60:
         low+=1
-    elif 60<hr<120:
+    elif 60<=hr<120:
         normal+=1
     else :
         high+=1
